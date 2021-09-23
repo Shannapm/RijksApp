@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Rijksmuseum Search App</title>
+  </head>
+
+    <!-- HEADER maar die kan waarschijnlijk weeg -->
+    <header id="showcase">
+    <div class="items">
+      <i class="fas fa-angle-double-left arrow-left"></i>
+
+      <div class="item">
+        <div class="img-container" id="item-image1" >
+          <img src="" id="firstIMG"></div>
+          <div class="item-text-wrap">
+            <div id="item-text1" class="titles">
+              <h2 class="item-text-artist" id="firstArtist"></h2>
+              <p class="item-text-catagory" id="firstTitle"></p>
+            </div> 
+          </div>
+        </div> 
+
+            
+            <div class="item">
+              <div class="img-container" id="item-image2">
+                <img src="" id="secondIMG"></div>
+                <div class="item-text-wrap">
+                  <div id="item-text2" class="titles">
+                    <h2 class="item-text-artist" id="secondArtist"></h2>
+                    <p class="item-text-catagory" id="secondTitle"></p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="item">
+            <div class="img-container" id="item-image3">
+              <img src="" id="thirdIMG" >
+            </div>
+            <div class="item-text-wrap" aria-colspan="titles">
+              <div id="item-text3">
+                <h2 class="item-text-artist" id="thirdArtist"></h2>
+                <p class="item-text-catagory" id="thirdTitle"></p>
+              </div>
+            </div>
+          </div>
+          <i class="fas fa-angle-double-right arrow-right"></i>
+        </div>
+        <!-- <div class="container showcase-container"> -->
+          <!-- <p id = "showcase-info"></p> -->
+          
+        </div>
+  </header>
+  <body>
+    
+    
+    <!-- Search Content  -->
+    <div class="search-container">
+      <form id="searchForm">
+        <input type="text" onfocus="this.value=''" value="" placeholder="Searchterm" name="query" autocomplete="off">
+        <button class="btn">
+          <i class="fas fa-search"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+    
+    
+   <footer >
+     <ul>
+       <li> <p id="description" >
+      </p></li>
+      <li><p id="materials"></p></li>
+     </ul>
+     
+      
+        
+   </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>    
+    <script src="script.js"></script>
+</body>
+</html>
