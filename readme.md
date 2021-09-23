@@ -13,6 +13,7 @@ Wat goed ging :
 
 Wat nog niet (helemaal) gelukt is/ niet goed ging:
 
+_ de afbeeldingen laden heel langzaam, waardoor het soms lijkt of er een paar dubbel bij zitten. Ik zou niet weten hoe ik dat moet oplossen
 - Detail content creeren, en weer laten verdwijnen in de footer, wanneer er op een afbeelding geklikt wordt. Ik weet niet precies waarom niet, ik heb een functie gemaakt die het objectnummer in de data opzoekt en daar de passende informatie bij. toch laat hij elke keer dezelde tekst zien.
   Ik heb mijn code daarvan laten staan, ik hoop er feedback en misschihen een oplossing op te kunnen krijgen..
 - Niet genoeg tijd gehad om alles responsive te maken en achteraf beseft dat ik dat misschien beter vanaf het begin had kunnen doen.
